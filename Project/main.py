@@ -1,5 +1,6 @@
 """
 @author: vinay
+Aim: Finding rainfall and temperature correlation
 """
 
 import pandas as pd
@@ -48,8 +49,8 @@ correlation_rain_temp_df.set_index('years', inplace=True)
 #heatmap_data = correlation_rain_temp_df.loc[years]
 plt.figure(1)
 sns.heatmap(correlation_rain_temp_df, vmin = -1, vmax = 1, cbar_kws={'label': 'Pearson correlation coefficient'})
-plt.figure(2)
-sns.pairplot(correlation_rain_temp_df)
+# plt.figure(2)
+# sns.pairplot(correlation_rain_temp_df)
 #plt.xlabel("locations")
 #plt.ylabel("Years")
 #plt.title("Correlation of rainfall and temperature for different location and year")
