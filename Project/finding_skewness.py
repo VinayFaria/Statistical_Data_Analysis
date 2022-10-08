@@ -1,5 +1,6 @@
 """
 @author: vinay
+Aim: Viewing the skewness in graph
 The rule isn't that all the bars should sum to one. The rule is that all the areas of all the bars should sum to one.
 """
 
@@ -49,7 +50,7 @@ for ind in rain_df.index:
     average_rain_new = average_rain_new.to_numpy()
     average_temp_new = average_temp_new.to_numpy()
     
-    if ind == 217:
+    if ind == 217:  # Specify the grid point for viewing boxplot, gaussian
         print(skew(average_rain), skew(average_rain_new), skew(average_temp), skew(average_temp_new))
         rmean = np.mean(average_rain_new)
         rmedian = np.median(average_rain_new)
