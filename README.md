@@ -1,2 +1,14 @@
-# Statistical_Data_Analysis
-Tutorial, project are in this repository
+# Statistical Data Analysis
+
+## Tutorials description:
+- Tutorial 1 helps in getting familiar with programming languages usage, comparing data with mean and curve fitting using least square method.
+- Tutorial 2 helps in calculating some parameters using large data, plotting time graph.
+- Tutorial 3 helps in analysis of temperature data for NWH (North Western Himalayan) region.
+- Tutorial 4 helps in understanding simple linear regression, multivariate linear regression, simple non-linear regression, and multivariate non-linear regression
+- Tutorial 5 helps in building non-linear regression model from scratch.
+- Tutorial 6 helps in performing clustering.
+
+## Project description:
+Aim: Determining the homogeneous zone of the North West Himalayan region by employing a clustering method based on skewness and kurtosis features in temperature and precipitation data variation.
+- Below plot is correlation plot between rainfall and temperature. Clustering is performed using three methods DBSCAN, k-means, and hierarchical clustering.
+<img src="https://github.com/VinayFaria/Statistical_Data_Analysis/blob/master/Project/correlation_rainfall_temperature.png" width ="25">
