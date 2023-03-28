@@ -10,7 +10,7 @@
 
 ## Project description
 Aim: Determining the homogeneous zone of the North West Himalayan region by employing a clustering method based on skewness and kurtosis features in temperature and precipitation data variation.
-- Below plot is correlation plot (not a clustering plot) between rainfall and temperature. Clustering is performed using three methods DBSCAN, k-means, and hierarchical clustering, (code link)[https://github.com/VinayFaria/Statistical_Data_Analysis/tree/master/Project].
+- Below plot is correlation plot (not a clustering plot) between rainfall and temperature. Clustering is performed using three methods DBSCAN, k-means, and hierarchical clustering, [code link](https://github.com/VinayFaria/Statistical_Data_Analysis/tree/master/Project).
 <img src="https://github.com/VinayFaria/Statistical_Data_Analysis/blob/master/Project/correlation_rainfall_temperature.png">
 
 ## Resources
